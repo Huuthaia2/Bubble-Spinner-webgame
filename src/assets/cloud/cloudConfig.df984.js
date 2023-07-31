@@ -1,0 +1,1 @@
+window.cc_cloud_commonConfig={platform:"tencent",tencent:{env:"rotatebubble-8g3r0f1y90ce23a9",appSign:"cocos.preview.657947754",appSecret:{appAccessKeyId:"1",appAccessKey:"dd5de7945301fd84903f6295ec5d8870"}}};
