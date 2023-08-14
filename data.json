@@ -1,0 +1,27 @@
+{
+  "ads":[
+    {
+      "id":"test_1",
+      "type":1,
+      "template_url":"https://api.150ad.com/test/index.html",
+      "target_url":"https://go.minigame.vip/",
+      "material_url":"https://api.150ad.com/test/bubble-spinner_icon.png",
+      "support_country":["ID","CN","HK"],
+      "support_language":["id-ID","zh-CN"],
+      "impression":3
+    },
+    {
+      "id":"test_2",
+      "type":2,
+      "template_url":"https://api.150ad.com/test/index.html",
+      "target_url":"https://go.minigame.vip/",
+      "material_url":"https://api.150ad.com/test/bubble-spinner_icon.png",
+      "support_country":["ID","CN","HK"],
+      "support_language":["id-ID","zh-CN"],
+      "impression":3
+    }
+  ],
+  "ga_config":{
+    "id" :"UA-222108981-1"
+  }
+}

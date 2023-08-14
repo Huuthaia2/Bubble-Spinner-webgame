@@ -437,7 +437,7 @@
             return h(this, void 0, void 0, function* () {
                 try {
                     var e = !!(r && 0 < r.length),
-                        t = (e || console.warn("fetchAdsData error: url is null"), this._adsDataFile = e ? r : "https://api.150ad.com/test/data.json", yield fetch(this._adsDataFile));
+                        t = (e || console.warn("fetchAdsData error: url is null"), this._adsDataFile = e ? r : "/data.json", yield fetch(this._adsDataFile));
                     return this._adsShowOption = yield t.json(), console.info("fetchAdsData success: ", this._adsShowOption), Promise.resolve()
                 } catch (e) {
                     return Promise.reject({
@@ -451,8 +451,8 @@
             return h(this, void 0, void 0, function* () {
                 try {
                     if (!this._adsShowOption) {
-                        let e = this._adsDataFile || "https://api.150ad.com/test/data.json";
-                        window.MiniGameAds && window.MiniGameAds.isTest && (e = "https://api.150ad.com/test/data.json");
+                        let e = this._adsDataFile || "/data.json";
+                        window.MiniGameAds && window.MiniGameAds.isTest && (e = "/data.json");
                         var t = yield fetch(e);
                         this._adsShowOption = yield t.json(), console.info("fetchAdsShowConfig success: ", this._adsShowOption)
                     }
